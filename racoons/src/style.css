@@ -3,15 +3,14 @@
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(3, 1fr);
     position: absolute;
-    inset: 0;
+    inset: 10svh 20svw;
 }
 
 .racButton {
-    padding: 55px 55px 55px 55px; /* im gonna make em square */
-    margin: 10px;
+    width: 15rem;
+    height: 15rem;
     border: 2px solid #1e1e2e;
     border-radius: 10px;
-    color: #11111b;
 }
 
 .rac1 {
@@ -48,4 +47,22 @@
 
 .rac9 {
     background: #b4befe;
+}
+
+.loseButton {
+    background-image: url("img/racoonAngry.jpg");
+    background-size: cover;
+}
+
+.winButton {
+    background-image: url("img/racoonKind.jpeg");
+    background-size: cover;
+}
+
+.modal {
+    max-width: 50ch;
+}
+  
+.modal::backdrop {
+    background: rgb(0 0 0 / 0.4);
 }
