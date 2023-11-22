@@ -1,17 +1,9 @@
 .container {
-    display: table;
-    width: 90%;
-    border-collapse: collapse;
-    margin: auto;
-}
-
-.buttonRow {
-    display: table-tow;
-    text-align: center;
-}
-
-.buttonCol {
-    display: table-cell;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    position: absolute;
+    inset: 0;
 }
 
 .racButton {
