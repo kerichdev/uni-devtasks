@@ -17,6 +17,42 @@
 .racButton {
     padding: 55px 55px 55px 55px; /* im gonna make em square */
     margin: 10px;
-    border: 2px solid #000;
+    border: 2px solid #1e1e2e;
     border-radius: 10px;
+}
+
+.rac1 {
+    background: #f38ba8;
+}
+
+.rac2 {
+    background: #fab387;
+}
+
+.rac3 {
+    background: #f9e2af;
+}
+
+.rac4 {
+    background: #a6e3a1;
+}
+
+.rac5 {
+    background: #94e2d5;
+}
+
+.rac6 {
+    background: #89dceb;
+}
+
+.rac7 {
+    background: #74c7ec;
+}
+
+.rac8 {
+    background: #89b4fa;
+}
+
+.rac9 {
+    background: #b4befe;
 }
