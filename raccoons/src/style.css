@@ -1,0 +1,14 @@
+.container {
+    display: table;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+.buttonRow {
+    display: table-tow;
+    text-align: center;
+}
+
+.buttonCol {
+    display: table-cell;
+}
