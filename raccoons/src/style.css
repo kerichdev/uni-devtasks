@@ -2,6 +2,7 @@
     display: table;
     width: 90%;
     border-collapse: collapse;
+    margin: auto;
 }
 
 .buttonRow {
@@ -11,4 +12,11 @@
 
 .buttonCol {
     display: table-cell;
+}
+
+.racButton {
+    padding: 55px 55px 55px 55px; /* im gonna make em square */
+    margin: 10px;
+    border: 2px solid #000;
+    border-radius: 10px;
 }
